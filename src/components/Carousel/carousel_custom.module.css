@@ -1,0 +1,12 @@
+/* .indicator {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  transition: width 250ms ease;
+  background-color: #d9d9d9;
+  transform: translateY(60px);
+}
+.indicator[data-active] {
+  width: 29px;
+  background-color: #d9d9d9;
+} */

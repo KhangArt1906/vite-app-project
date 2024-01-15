@@ -1,0 +1,35 @@
+#header {
+  .header-nav {
+    a.header-nav_link {
+      text-decoration: none;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #3b3089;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .header-auth {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      border: 1.7px solid #5da7da;
+      background-color: #5da7da;
+      right: -20px;
+      top: 0;
+    }
+  }
+
+  .header-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,58 @@
+.plan-wrapper {
+  .plan {
+    .plan-top,
+    .plan-title,
+    .plan-desc {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      letter-spacing: 0em;
+    }
+
+    .plan-card {
+      position: relative;
+      font-family: 'Outfit', sans-serif;
+      background-color: #f8f8f8;
+      box-shadow: 0px 0px 5px 0px #4470b2;
+      &_title {
+        font-size: (20px);
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        color: #000;
+      }
+
+      .plan-sale {
+        position: absolute;
+        padding: (7px) (23px);
+        border-radius: 5px;
+        top: 9px;
+        right: 0;
+        transform: translateX((11px));
+        p {
+          color: #fff;
+          font-size: (14px);
+          font-weight: 400;
+        }
+      }
+    }
+    .plan-price {
+      font-family: 'Outfit', sans-serif;
+      &_top {
+        font-size: 14px;
+        text-decoration: line-through;
+      }
+      &_bottom {
+        font-size: (25px);
+        font-weight: 700;
+        line-height: 30px;
+        color: #4faf4d;
+      }
+      &_month {
+        font-size: (14px);
+        font-weight: 700;
+        line-height: (16.8px);
+        color: #000;
+      }
+    }
+  }
+}
